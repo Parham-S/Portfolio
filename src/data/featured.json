@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Pubg Stats",
+    "slug": "pubgg",
+    "description": "A PUBG stats app that returns quick and easy ranked season data using the pubg api",
+    "tags": ["React", "Express.js", "MySQL", "2021"],
+    "source": "https://github.com/",
+    "demo": "https://github.com/",
+    "thumb": "./images/SQLIFTING-WORKOUT.jpg"
+  }
+]

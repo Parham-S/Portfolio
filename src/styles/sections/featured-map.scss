@@ -1,0 +1,7 @@
+@import "../index.scss";
+
+.featured-map-section {
+	@include flex;
+	flex-direction: column;
+	width: 100%;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Pubg.gg",
+    "slug": "pubgg",
+    "description": "A PUBG stats app that returns quick and easy ranked season data using the pubg api.",
+    "writing": {
+      "process": "Gaining familiarity with the PUBG developer api - using the shards system and axios to present relevant user data when users query a player's information",
+      "processSub": "API - User Data",
+      "conclusion": [
+        "Created a stats app that pulls relevant user data from an api"
+      ]
+    },
+    "stack": ["React", "Express", "Axios"],
+    "tags": ["React", "Axios", "2021"],
+    "source": "https://github.com/Parham-S",
+    "demo": "https://github.com/Parham-S",
+    "thumb": "./images/WORKPOINTS-MARKETPLACE.jpg",
+    "images": [
+      "./images/WORKPOINTS-SHOWCASE.jpg",
+      "./images/WORKPOINTS-MARKETPLACE.jpg",
+      "./images/WORKPOINTS-VISUAL.jpg",
+      "./images/WORKPOINTS-LANDING.jpg"
+    ],
+    "resources": ["https://developer.pubg.com/"]
+  }
+]
