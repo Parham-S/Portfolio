@@ -12,7 +12,7 @@ interface Props {
 }
 
 const Switch: React.FC<Props> = ({ isMobile, theme, setTheme }) => {
-  const BRIGHT = { bright: true, night: false };
+  const BRIGHT = { bright: false, night: true };
   const NIGHT = { bright: false, night: true };
 
   function set(mode: ThemeState) {
@@ -29,9 +29,9 @@ const Switch: React.FC<Props> = ({ isMobile, theme, setTheme }) => {
   function brightMode() {
     paintTheme([
       ["--app-background", "#1f2023"],
-      ["--app-alt-bg", "#ebebeb"],
+      ["--app-alt-bg", "#161616"],
       ["--app-text", "#bcb28d"],
-      ["--star-color", "#4683b4cc"],
+      ["--star-color", "rgba(255, 255, 255, 0.8)"],
     ]);
   }
   function nightMode() {
