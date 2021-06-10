@@ -13,7 +13,13 @@ const About: React.FC = () => (
       <h1 className="section-title">About me</h1>
       <div className="about-cont">
         <h2>Background</h2>
-        <p className="info">My name is Parham </p>
+        <p className="info">
+          My name is Parham. I am a full-stack web developer, and recent
+          graduate of Wyncode out of Miami, FL. I am a Former Marine JFO, and
+          Florida International University graduate. I enjoy learning about new
+          web technologies, with Javascript, React, and Node.js as my areas of
+          expertise.
+        </p>
         <h2>Education</h2>
         <ul>
           <li>

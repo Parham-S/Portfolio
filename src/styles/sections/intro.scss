@@ -3,9 +3,12 @@
 .introduction-section {
   @include flex;
   width: 100%;
+  display: flex;
   height: calc(100vh - 100px);
   .intro-cont {
-    width: 60%;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     .title,
     .subTitle,
@@ -26,15 +29,15 @@
       margin-top: 20px;
       max-width: 80%;
     }
-    transition: 0.3s;
-    @include media("<=800") {
-      width: 80%;
-      .title {
-        font-size: 4.5rem;
-      }
-      .snippet {
-        max-width: 100%;
-      }
+  }
+  transition: 0.3s;
+  @include media("<=800") {
+    width: 80%;
+    .title {
+      font-size: 4.5rem;
+    }
+    .snippet {
+      max-width: 100%;
     }
   }
 }

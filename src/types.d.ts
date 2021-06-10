@@ -1,46 +1,51 @@
 interface Project {
-	title: string
-	slug: string
-	description: string
-	writing: {
-		process: string
-		processSub: string
-		conclusion: string[]
-	}
-	stack: string[]
-	tags: string[]
-	source: string
-	demo: string
-	thumb: Image
-	images: Image[]
-	resources: string[]
+  title: string;
+  slug: string;
+  description: string;
+  writing: {
+    process: string;
+    processSub: string;
+    conclusion: string[];
+  };
+  stack: string[];
+  tags: string[];
+  source: string;
+  demo: string;
+  thumb: Image;
+  images: Image[];
+  resources: string[];
 }
 
 interface Feature {
-	title: string
-	slug: string
-	description: string
-	tags: string[]
-	source: string
-	demo: string
-	thumb: Image
+  title: string;
+  slug: string;
+  description: string;
+  tags: string[];
+  source: string;
+  demo: string;
+  thumb: Image;
 }
 
 interface Image {
-	childImageSharp: any
-	publicURL: string
-	extension: string
+  childImageSharp: any;
+  publicURL: string;
+  extension: string;
 }
 
 interface ViewState {
-	open: boolean
-	image: number
+  open: boolean;
+  image: number;
 }
 
 interface ThemeState {
-	bright: boolean
-	night: boolean
+  bright: boolean;
+  night: boolean;
 }
 
-type SetViewState = React.Dispatch<React.SetStateAction<ViewState>>
-type SetTheme = React.Dispatch<React.SetStateAction<ThemeState>>
+declare module "*.png" {
+  const value: string;
+  export default value;
+}
+
+type SetViewState = React.Dispatch<React.SetStateAction<ViewState>>;
+type SetTheme = React.Dispatch<React.SetStateAction<ThemeState>>;

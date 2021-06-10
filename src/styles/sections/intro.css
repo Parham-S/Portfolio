@@ -151,6 +151,7 @@ button {
   justify-content: center;
   align-items: center;
   width: 100%;
+  display: flex;
   height: calc(100vh - 100px);
 }
 .introduction-section .intro-cont {
