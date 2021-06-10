@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{"i6+/":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),o=n.n(a),l=n("88s8"),c=n("H8eV");t.default=function(){return o.a.createElement(l.a,null,o.a.createElement(c.a,{title:"404: Not found"}),o.a.createElement("h1",null,"404: Not Found"),o.a.createElement("p",null,"You have broken the fabric of space-time....please go back."))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-972e85c73f08e64d06f4.js.map
