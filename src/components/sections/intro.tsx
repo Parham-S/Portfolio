@@ -13,7 +13,7 @@ const Introduction: React.FC = () => (
       <p className="snippet">Full Stack Web Developer</p>
       <p className="snippet">Miami, Florida</p>
     </div>
-    <img src={headShot} alt="me" />
+    <img src={headShot} className="itsMe" alt="me" />
   </div>
 );
 

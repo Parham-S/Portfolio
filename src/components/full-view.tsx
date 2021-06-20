@@ -95,3 +95,4 @@ const FullView: React.FC<Props> = ({ images, view, set }) => {
 }
 
 export default FullView
+

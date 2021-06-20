@@ -23,8 +23,9 @@
 }
 
 :root {
+  --star-color: rgba(255, 255, 255, 0.8);
   --app-background: #1f2023;
-  --app-alt-bg: #1f2023;
+  --app-alt-bg: #161616;
   --app-text: #bcb28d;
 }
 $app-background: var(--app-background);

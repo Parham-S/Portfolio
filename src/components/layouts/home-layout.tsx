@@ -23,7 +23,7 @@ const Layout: React.FC = ({ children }) => {
     theme.bright
       ? document.documentElement.style.setProperty(
           "--star-color",
-          `rgba(70, 131, 180, ${v})`
+          `rgba(255, 255, 255, ${v})`
         )
       : document.documentElement.style.setProperty(
           "--star-color",
